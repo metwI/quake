@@ -88,7 +88,7 @@ tea-rMB ::~> weather Izmir
         weatherLoading.textContent += ".";
       }, 1000);
 
-      fetch("http://wttr.in/Istanbul?mM0FAQT&lang=en")
+      fetch("https://wttr.in/Izmir?mM0FAQT&lang=en")
         .then((res) => res.text())
         .then((text) => (pre.textContent += text))
         .catch((e) => {
